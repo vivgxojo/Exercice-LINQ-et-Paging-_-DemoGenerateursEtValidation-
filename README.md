@@ -1,1 +1,11 @@
-# DemoGenerateursEtValidation
+# Exercice-LINK-et-Paging
+- Créer un fork du projet et ajoutez l'enseignante
+- Étudier le fonctionnement et le code du projet 
+- Installer Entity Framework dans le projet
+- Créer une migration
+- Connecter une base de données
+- Remplacer la classe MemAutoRep par son équivalent DbAutoRep qui doit implémenter les mêmes fonctionnalités.
+- La liste d'autos doit être déplacer dans une classe d'initialisation pour seeder la BD.
+- Modifiez la méthode et la vue index pour ajouter la pagination et la recherche.
+- La pagination doit afficher 10 voitures par page.
+- La recherche doit permettre à l'utilisateur de filtrer par marques, par modèles et par intervalle de prix.

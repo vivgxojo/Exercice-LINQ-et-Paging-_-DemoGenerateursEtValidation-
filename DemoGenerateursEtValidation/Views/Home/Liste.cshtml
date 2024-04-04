@@ -1,0 +1,51 @@
+﻿@model IEnumerable<DemoGenerateursEtValidation.Models.Auto>
+@{
+    ViewData["Title"] = "Liste";
+}
+<h1>Liste</h1>
+<p>
+    <a asp-action="Create">Ajouter une voiture</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prix)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marque)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prix)
+            </td>
+            <td>
+                <!-- TODO Programmer les paramètres et les actions -->
+                @Html.ActionLink("Modifier", "Edit", item) |
+                    @Html.ActionLink("Afficher", "Details", new {item.Id}) |
+                @Html.ActionLink("Supprimer", "Delete", item)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

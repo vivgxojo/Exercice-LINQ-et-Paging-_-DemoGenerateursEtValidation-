@@ -1,0 +1,40 @@
+﻿@model DemoGenerateursEtValidation.Models.Auto
+@{
+    ViewData["Title"] = "Auto";
+}
+<h1>Auto</h1>
+<div>
+    <h4>Auto</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Marque)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Marque)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Model)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Prix)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Prix)
+        </dd>
+    </dl>
+</div>
+<div>
+    <!-- TODO Programmer le paramètre et l'action Edit -->
+    @Html.ActionLink("Modifier", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Retour à la liste</a>
+</div>

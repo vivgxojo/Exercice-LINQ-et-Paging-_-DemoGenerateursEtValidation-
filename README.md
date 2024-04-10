@@ -1,4 +1,4 @@
-# Exercice-LINK-et-Paging
+# Exercice-LINQ-et-Paging
 - Créer un fork du projet et ajoutez l'enseignante
 - Étudier le fonctionnement et le code du projet 
 - Installer Entity Framework dans le projet

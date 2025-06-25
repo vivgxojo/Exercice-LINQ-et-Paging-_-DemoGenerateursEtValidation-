@@ -1,6 +1,7 @@
 # Exercice-LINQ-et-Paging
 - Créer un fork du projet et ajoutez l'enseignante
-- Étudier le fonctionnement et le code du projet 
+- Étudier le fonctionnement et le code du projet
+- Mettre à jour la version de .net et des packages
 - Installer Entity Framework dans le projet
 - Créer une migration
 - Connecter une base de données

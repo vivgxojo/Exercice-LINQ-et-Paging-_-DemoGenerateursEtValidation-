@@ -7,6 +7,7 @@
 - Connecter une base de données
 - Remplacer la classe MemAutoRep par son équivalent DbAutoRep qui doit implémenter les mêmes fonctionnalités.
 - La liste d'autos doit être déplacer dans une classe d'initialisation pour seeder la BD.
-- Modifiez la méthode et la vue index pour ajouter la pagination et la recherche.
-- La pagination doit afficher 10 voitures par page.
+- Ajouter des filtres et un champ de recherche.
 - La recherche doit permettre à l'utilisateur de filtrer par marques, par modèles et par intervalle de prix.
+- Ajouter la pagination.
+- La pagination doit afficher 10 voitures par page.
